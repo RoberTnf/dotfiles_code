@@ -15,4 +15,4 @@ zsh -c 'git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH
 cp ./.zshrc ~
 
 # starship
-curl -sS https://starship.rs/install.sh | sh
+curl -sS https://starship.rs/install.sh | sh -s -- -y
